@@ -16,10 +16,10 @@ namespace MVC_Countries_Lab
         public void WelcomeAction()
         {
             bool run = true;
-            Console.WriteLine("Hello! Welcome to the country app!");
+            Console.WriteLine("\t\t\t\t\t*Hello! Welcome to the country app!*");
             while (run)
             {
-                Console.WriteLine("Would you like to select a country? Enter y to start or any other key twice to exit.");
+                Console.WriteLine("\t\t~Would you like to select a country? Enter y to start or any other key twice to exit.~");
                 string response = Console.ReadLine().ToLower();
                 if (response == "y")
                 {
